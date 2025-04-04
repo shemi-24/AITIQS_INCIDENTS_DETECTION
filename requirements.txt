@@ -1,0 +1,6 @@
+opencv-python
+numpy
+ultralytics
+pandas
+requests
+face-recognition

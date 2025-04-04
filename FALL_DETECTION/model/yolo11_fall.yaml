@@ -1,0 +1,13 @@
+# path: ./dataset
+# train: images/train
+# val: images/val
+# nc: 2
+# names: ['normal', 'fall']
+
+
+
+path: /Users/zoftcares/StudioProjects/fall_detection_system/fall_dataset
+train: images/train
+val: images/val
+nc: 3
+names: ["Walking", "Sitting", "Fall Detected"]

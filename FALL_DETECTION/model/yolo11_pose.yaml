@@ -1,0 +1,21 @@
+
+path: /Users/zoftcares/StudioProjects/fall_detection_system/fall_pose_dataset
+train: /Users/zoftcares/StudioProjects/fall_detection_system/fall_pose_dataset/train
+val:  /Users/zoftcares/StudioProjects/fall_detection_system/fall_pose_dataset/valid
+test: /Users/zoftcares/StudioProjects/fall_detection_system/fall_pose_dataset/test
+nc: 1
+names: ['person']
+
+# Keypoints
+kpt_shape: [17, 3] # number of keypoints, number of dims (2 for x,y or 3 for x,y,visible)
+flip_idx: [0, 2, 1, 4, 3, 6, 5, 8, 7, 10, 9, 12, 11, 14, 13, 16, 15]
+
+
+roboflow:
+  workspace: humna-pose-data
+  project: falling-pose-estimation
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/humna-pose-data/falling-pose-estimation/dataset/4
+   
+

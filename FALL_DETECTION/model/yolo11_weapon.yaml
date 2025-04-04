@@ -1,0 +1,6 @@
+path: /Users/zoftcares/StudioProjects/AI PROJECTS/fall_detection_system/weapon_detection
+train: /Users/zoftcares/StudioProjects/AI PROJECTS/fall_detection_system/weopen_datasets/images/train
+val: /Users/zoftcares/StudioProjects/AI PROJECTS/fall_detection_system/weopen_datasets/images/val
+
+nc: 1
+names: ["gun"]
